@@ -1,9 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 
-import { Hello } from './components/Hello';
+import { LibraryContainer } from './views/containers/Library';
 
 ReactDOM.render(
-  <Hello name="Carol"/>,
+  <LibraryContainer/>,
   document.getElementById("application")
 );

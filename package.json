@@ -12,12 +12,21 @@
   "dependencies": {
     "@types/react": "^15.0.38",
     "@types/react-dom": "^15.5.1",
+    "@types/reactstrap": "^4.3.7",
+    "bootstrap": "^4.0.0-alpha.6",
+    "install": "^0.10.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-addons-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "reactstrap": "^4.8.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.2.1",
+    "css-loader": "^0.28.4",
+    "moment": "^2.18.1",
     "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
     "typescript": "^2.4.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.5.1"

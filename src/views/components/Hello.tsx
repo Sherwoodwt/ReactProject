@@ -5,5 +5,8 @@ export interface HelloProps {
 }
 
 export const Hello: React.SFC<HelloProps> = props => (
-  <h1>Hello {props.name}</h1>
+  <div>
+    <h1>Hello {props.name}</h1>
+    
+  </div>
 );

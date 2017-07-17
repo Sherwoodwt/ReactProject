@@ -10,13 +10,14 @@ module.exports = {
         contentBase: '.'
     },
     resolve: {
-        extensions: [".ts", ".tsx", ".js", ".json"]
+        extensions: [".ts", ".tsx", ".css", ".js", ".json"]
     },
 
     module: {
         rules: [
             { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
-            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
+            { test: /\.css$/, use: ["style-loader", "css-loader"] }
         ]
     },
     externals: {
